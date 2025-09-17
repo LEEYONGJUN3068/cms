@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src", // "." 에서 "src"로 변경
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
