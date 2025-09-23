@@ -18,18 +18,13 @@ const LoadingScreen = () => {
       alignItems: 'center',
       zIndex: 9999,
     }}>
-        <p style={{
-            fontSize: 'clamp(0px, 5vw, 32px)',
-            fontWeight: 'bold',
-        }}>
-          포트폴리오 화면을 구성중입니다
-        </p>
-        <Player
-          autoplay
-          loop
-          src="https://lottie.host/dfe9ce55-f0b7-4bb0-bcd2-241897b61dec/JhkEyDhSuU.json"
-          style={{ width: 'clamp(0px, 50vw, 300px)', height: 'auto' }}
-        />
+      <p>화면을 구성중입니다.</p>
+      <Player
+        autoplay
+        loop
+        src="https://lottie.host/dfe9ce55-f0b7-4bb0-bcd2-241897b61dec/JhkEyDhSuU.json"
+        style={{ height: '300px', width: '300px' }}
+      />
     </div>
   );
 };

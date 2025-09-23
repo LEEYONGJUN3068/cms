@@ -28,7 +28,7 @@ const LoadingScreen = () => {
           autoplay
           loop
           src="https://lottie.host/dfe9ce55-f0b7-4bb0-bcd2-241897b61dec/JhkEyDhSuU.json"
-          style={{ width: 'clamp(0px, 50vw, 300px)', height: 'auto' }}
+          style={{ width: '100%', height: 'auto' }}
         />
     </div>
   );
