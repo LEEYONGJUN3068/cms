@@ -18,12 +18,12 @@ export default function Login() {
 
   return (
     <div className={styles.loginContainer}>
+      <h2>관리자계정 로그인</h2>
       <div className={styles.form}>
-        <h2>Admin Login</h2>
         <form onSubmit={handleLogin}>
           <input
             type="email"
-            placeholder="Email"
+            placeholder="Id"
             value={email}
             onChange={(e)=>setEmail(e.target.value)}
             required
@@ -37,7 +37,7 @@ export default function Login() {
             required
             name='pw'
           />
-          <button type="submit" className={styles.loginBtn}>SIGN IN</button>
+          <button type="submit" className={styles.loginBtn}>LOGIN</button>
         </form>
       </div>
     </div>
