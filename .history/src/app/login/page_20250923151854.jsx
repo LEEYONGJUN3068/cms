@@ -37,8 +37,8 @@ export default function Login() {
             required
             name='pw'
           />
-          <button type="submit" className={styles.loginBtn}>SIGN IN</button>
         </form>
+        <button type="submit" className={styles.loginBtn}>SIGN IN</button>
       </div>
     </div>
   )
